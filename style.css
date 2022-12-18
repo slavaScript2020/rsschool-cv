@@ -17,7 +17,30 @@ body {
     border-radius: 25px;
 }
 
+h1 {
+    margin-top: 20px;
+}
+
 .avatar {
     border-radius: 50%;
     border: 3px solid black;
+    margin: 20px 0;
+}
+
+.contacts-list {
+    list-style-type: none;
+}
+
+.contacts-list p {
+    margin-left: 10px;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px 0;
 }
