@@ -14,7 +14,15 @@ body {
     max-width: 960px;
     margin: 0 auto;
     background-color:white;
-    border-radius: 25px;
+}
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color:white;
 }
 
 h1 {
@@ -41,6 +49,14 @@ li {
 }
 
 h2 {
-    text-align: center;
     margin: 20px 0;
+    text-align: center;
+}
+
+.bio {
+    text-indent: 20px;
+}
+
+section {
+    flex-basis: 30%;
 }
