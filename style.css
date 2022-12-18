@@ -59,4 +59,29 @@ h2 {
 
 section {
     flex-basis: 30%;
+    padding: 0 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 960px;
+    padding-top: 20px;
+    margin: 0 auto;
+    background-color:white;
+}
+
+.footer p {
+    display: flex;
+    align-items: center;
+}
+
+.my-github {
+    display: flex;
+    align-items: center;
+}
+
+.my-github p {
+    margin-left: 5px;
 }
